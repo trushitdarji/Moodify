@@ -1,0 +1,26 @@
+.mood-container {
+  display: flex;
+  background-color: #1a1a1a;
+  max-width: 35%;
+  min-width: 35%;
+  border-radius: 10px;
+  min-height: 10rem;
+  position: fixed;
+  top: 27%;
+  left: 30%;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #333;
+  padding: 1rem;
+  align-items: center;
+  gap: 2rem;
+
+
+  .emoji{
+    .emoji1{
+      svg{
+          color: #f8520b;
+          height: 5rem;
+      }
+    }
+  }
+}
